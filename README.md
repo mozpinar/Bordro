@@ -16,4 +16,4 @@ Bir sonraki adımı bunun FMX'le yapılması ve tüm mobil cihazlarda da çalı�
 Kullandığım yazılım araçları da şunlar;
 -Spring4d : Marshmallow orm için kullanıyorum. C# ve Entity Framework kullanıncaya kadar orm için pek olumlu düşünmüyordum. Ama hele ki bu programdan sonra, mutlaka kullanılması lazım. Hayatı çok kolaylaştırıyor.
 -JCL ve JVCL (Jedi VCL paketi) : Grid, Form property saver, toolbar, Memory table gibi bileşenlerini kullanıyorum.
--DB Browser form SQLite : Veritabanı üzerinde çeşitli düzeltmeler yapmak, örnek veri girmek vs işler için.
+-DB Browser for SQLite : Veritabanı üzerinde çeşitli düzeltmeler yapmak, örnek veri girmek vs işler için.
