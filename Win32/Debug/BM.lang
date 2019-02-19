@@ -1,0 +1,452 @@
+TMainForm.Caption=MO Bordro
+TMainForm.ActionMainMenuBar1.ActionClient.Items[0].Caption=Personel
+TMainForm.ActionMainMenuBar1.ActionClient.Items[1].Caption=Bordro
+TMainForm.ActionMainMenuBar1.ActionClient.Items[2].Caption=Döviz
+TMainForm.ActionMainMenuBar1.ActionClient.Items[3].Caption=Raporlar
+TMainForm.ActionMainMenuBar1.ActionClient.Items[4].Caption=Parametreler
+TMainForm.ActionMainMenuBar1.ActionClient.Items[5].Caption=Seçenekler
+TMainForm.ActionMainMenuBar1.ActionClient.Items[6].Caption=Firmalar
+TMainForm.ActionMainMenuBar1.ActionClient.Items[7].Caption=Güvenlik
+
+TMainForm.actViewPersonelGridForm.Caption=Personel
+TMainForm.actStartEmployeeRecruitment.Caption=Ýþe Giriþ
+TMainForm.actStartEmployeeJobTermination.Caption=Ýþten Ayrýlýþ
+
+TMainForm.actPayrollCalculation.Caption=Bordro Hesaplama
+TMainForm.actPayrollExamine.Caption=Bordro Ýnceleme
+TMainForm.actPayrollClosePeriod.Caption=Dönem Kapama
+TMainForm.actPayrollChangeYearPeriod.Caption=Dönem Deðiþtirme
+TMainForm.actPayrollTransferToGeneralLedger.Caption=Muhasebeye Aktar
+TMainForm.actPayrollTotalIncomeTaxBaseEntry.Caption=Toplam Gelir Vergisi Matrahý Giriþi
+TMainForm.actPayrollScoringEntryForm.Caption=Tahakkuk Giriþi
+TMainForm.actPayrollOtherIncomesEntryForm.Caption=Diðer Gelirler Giriþi
+TMainForm.actPayrollOtherCutsEntryForm.Caption=Diðer Kesintiler Giriþi
+
+TMainForm.actCurrencyDaily.Caption=Döviz Kurlarý
+TMainForm.actCurrency.Caption=Döviz Kodlarý
+
+TMainForm.actRepPayrollReportWideDlg.Caption=Bordro Dökümü (Geniþ kaðýt)
+TMainForm.actRepPayrollReportLaserDlg.Caption=Bordro Dökümü (Lazer yazýcý)
+TMainForm.actRepEnvelopeDumpDlg.Caption=Zarf Dökümü
+TMainForm.actRepPayrollCompendiumDlg.Caption=Tahakkuklar Dökümü
+TMainForm.actRepPersonelWageListDlg.Caption=Personel Ücret Listesi
+TMainForm.actRepPersonnelTimekeepingListDlg.Caption=Puantaj Listesi
+TMainForm.actRepSocialPaymentsListDlg.Caption=Sosyal Ödentiler Listesi
+TMainForm.actRepOtherPaymentsListDlg.Caption=Diðer Ödentiler Listesi
+TMainForm.actRepOtherCutsListDlg.Caption=Diðer Kesintiler Listesi
+TMainForm.actRepMonthlySGKPremiumsDeclarationReportDlg.Caption=Aylýk SGK Primleri Bildirgesi
+TMainForm.actRepDeclarationReportOfSocialSecurityPremiumSupportDlg.Caption=Aylýk Sosyal Güvenlik Destekleme Prim Bildirgesi
+TMainForm.actRepAFour_monthInsurancePremiumsPayrollReportDlg.Caption=Dört Aylýk Sigorta Primleri Bordrosu
+TMainForm.actRepSGKPremiumsReportDlg.Caption=SGK Primleri Raporu
+TMainForm.actRepUserDefinedReportsDlg.Caption=Kullanýcý Tanýmlý Raporlar
+
+TMainForm.actParamsCountryEntry.Caption=Ülke
+TMainForm.actParamsCityEntry.Caption=Þehir
+TMainForm.actParamsTownEntry.Caption=Ýlçe
+TMainForm.actParamsLocationEntry.Caption=Lokasyon
+TMainForm.actParamsLanguageEntry.Caption=Dil
+TMainForm.actParamsDepartmentEntry.Caption=Departman
+TMainForm.actParamsTitleEntry.Caption=Ünvan
+TMainForm.actParamsBankEntry.Caption=Banka
+TMainForm.actParamsOthIncomeCutsEntry.Caption=Diðer Gelir ve Kesinti Tanýmlarý
+TMainForm.actParamsRelationshipTypeEntry.Caption=Akrabalýk Türü
+TMainForm.actParamsGeneralParameters.Caption=Genel Parametreler
+TMainForm.actParamsCompanyParameters.Caption=Firma Parametreleri
+
+TMainForm.actOpsDatabaseConnectionOptions.Caption=Veri Tabaný Baðlantýsý
+TMainForm.actOpsProgramOptions.Caption=Program Seçenekleri
+
+TMainForm.actCompanyList.Caption=Firma Listesi
+TMainForm.actCompanyOpen.Caption=Firma Aç
+TMainForm.actCompanyClose.Caption=Firmayý Kapat
+
+TMainForm.actSecUser.Caption=Kullanýcý
+TMainForm.actSecPermission.Caption=Ýzin Tanýmlarý
+TMainForm.actSecGroup.Caption=Gruplar
+TMainForm.actSecRole.Caption=Roller
+
+
+===========================================================================================================
+TTemplateEdit.btnOk.Caption=Tamam
+TTemplateEdit.Caption=Vazgeç
+===========================================================================================================
+TCountryListForm.Caption=Ülke
+
+TCountryListForm.JvDBGrid1[CountryId].Caption=Sýra no
+TCountryListForm.JvDBGrid1[CountryName].Caption=Ülke adý
+TCountryListForm.JvDBGrid1[Code3].Caption=Kod 3lü
+TCountryListForm.JvDBGrid1[Code2].Caption=Kod 2li
+TCountryListForm.JvDBGrid1[IsDeleted].Caption=Silindi mi?
+
+TCountryEditForm.Caption=Ülke
+TCountryEditForm.labelCountryName.Caption=Ülke Adý:
+TCountryEditForm.labelCountryCode2.Caption=Ülke Ýkili Kodu:
+TCountryEditForm.labelCountryCode3.Caption=Ülke Üçlü Kodu:
+===========================================================================================================
+TCityListForm.Caption=Þehir
+
+TCityListForm.JvDBGrid1.Columns[CityId].Caption=Sýra no
+TCityListForm.JvDBGrid1.Columns[CountryId].Caption=Ülke
+TCityListForm.JvDBGrid1.Columns[CityName].Caption=Þehir Adý
+TCityListForm.JvDBGrid1.Columns[CityCode].Caption=Þehir Kodu
+
+TCityListForm.JvDBGrid1[CityId].Caption=Sýra
+TCityListForm.JvDBGrid1[CountryId].Caption=Ülke Sýra no
+TCityListForm.JvDBGrid1[Country].Caption=Ülke
+TCityListForm.JvDBGrid1[CityName].Caption=Adý
+TCityListForm.JvDBGrid1[CityCode].Caption=Kodu
+TCityListForm.JvDBGrid1[IsDeleted].Caption=Silindi mi?
+
+TCityEditForm.Caption=Þehir
+TCityEditForm.labelCityName.Caption=Þehir Adý:
+TCityEditForm.labelCityCode.Caption=Þehir Kodu:
+TCityEditForm.labelCountryId.Caption=Ülke:
+===========================================================================================================
+TCompanyListForm.Caption=Firma
+
+TCompanyListForm.JvDBGrid1[CompanyId].Caption=Sýra no
+TCompanyListForm.JvDBGrid1[CompanyCode].Caption=Firma Kodu
+TCompanyListForm.JvDBGrid1[CompanyGuid].Caption=Firma Guid
+TCompanyListForm.JvDBGrid1[DocPassword].Caption=Döküman parolasý
+TCompanyListForm.JvDBGrid1[CompanyName1].Caption=Firma Adý-1
+TCompanyListForm.JvDBGrid1[CompanyName2].Caption=Firma Adý-2
+TCompanyListForm.JvDBGrid1[CompanyAddress1].Caption=Firma Adresi-1
+TCompanyListForm.JvDBGrid1[CompanyAddress2].Caption=Firma Adresi-2
+TCompanyListForm.JvDBGrid1[CompanyAddress3].Caption=Firma Adresi-3
+TCompanyListForm.JvDBGrid1[Street].Caption=Cadde/Sokak
+TCompanyListForm.JvDBGrid1[TownId].Caption=Ýlçe
+TCompanyListForm.JvDBGrid1[ShortName].Caption=Kýsa Adý
+TCompanyListForm.JvDBGrid1[TaxOffice].Caption=Vergi Dairesi
+TCompanyListForm.JvDBGrid1[TaxRegistrationNumber].Caption=Vergi Nosu
+TCompanyListForm.JvDBGrid1[PostCode].Caption=Posta Kodu
+TCompanyListForm.JvDBGrid1[Phone1].Caption=Telefon-1
+TCompanyListForm.JvDBGrid1[Phone2].Caption=Telefon-2
+TCompanyListForm.JvDBGrid1[Fax].Caption=Faks
+TCompanyListForm.JvDBGrid1[EmployeeName1].Caption=Çalýþan Adý-1
+TCompanyListForm.JvDBGrid1[EmployeeName2].Caption=Çalýþan Adý-2
+TCompanyListForm.JvDBGrid1[Responsible1].Caption=Sorumlu-1
+TCompanyListForm.JvDBGrid1[Responsible2].Caption=Sorumlu-2
+TCompanyListForm.JvDBGrid1[IsDeleted].Caption=Silindi mi?
+
+
+TCompanyEditForm.Caption=Firma Giriþi
+TCompanyEditForm.labelCompanyCode.Caption=Firma Kodu:
+TCompanyEditForm.labelCompanyName.Caption=Firma Adý:
+TCompanyEditForm.labelStreet.Caption=Cadde/Sokak:
+TCompanyEditForm.labellShortName.Caption=Kýsa adý:
+TCompanyEditForm.labelAddress.Caption=Adresi:
+TCompanyEditForm.labelCountry.Caption=Ülke:
+TCompanyEditForm.labelCity.Caption=Þehir:
+TCompanyEditForm.labelTown.Caption=Ýlçe:
+TCompanyEditForm.labelPostCode.Caption=Posta Kodu:
+TCompanyEditForm.labelPhone1.Caption=Telefon-1:
+TCompanyEditForm.labelPhone2.Caption=Telefon-2:
+TCompanyEditForm.labelFax.Caption=Faks:
+TCompanyEditForm.labelEmployeeName1.Caption=Çalýþan Adý-1:
+TCompanyEditForm.labelEmployeeName2.Caption=Çalýþan Adý-2:
+TCompanyEditForm.labelResponsible1.Caption=Sorumlu Adý-1:
+TCompanyEditForm.labelResponsible2.Caption=Sorumlu Adý-2:
+TCompanyEditForm.labelTaxOffice.Caption=Vargi Dairesi:
+TCompanyEditForm.labelTaxRegistrationNumber.Caption=Vergi Numarasý:
+
+============================================================================================================
+TCompanySelectForm.Caption=Firma Seçimi
+TCompanySelectForm.JvDBUltimGrid1.Columns[0].Title.Caption='Firma kodu'
+TCompanySelectForm.JvDBUltimGrid1.Columns[1].Title.Caption='Kýsa adý'
+TCompanySelectForm.JvDBUltimGrid1.Columns[2].Title.Caption='Firma adý 1'
+TCompanySelectForm.JvDBUltimGrid1.Columns[3].Title.Caption='Firma adý 2'
+TCompanySelectForm.JvDBUltimGrid1.Columns[4].Title.Caption='Telefon-1'
+TCompanySelectForm.JvDBUltimGrid1.Columns[5].Title.Caption='Faks'
+============================================================================================================
+TEmployeeListForm.Caption=Personel
+TEmployeeListForm.JvDBGrid1[EmployeeId].Caption=Sýra No
+TEmployeeListForm.JvDBGrid1[CompanyId].Caption=Firma
+TEmployeeListForm.JvDBGrid1[CompanyIdNumber].Caption=Sicil No
+TEmployeeListForm.JvDBGrid1[EmployeeName].Caption=Adý
+TEmployeeListForm.JvDBGrid1[EmployeeSurName].Caption=Soyadý
+TEmployeeListForm.JvDBGrid1[TitleId].Caption=Ünvan
+TEmployeeListForm.JvDBGrid1[Gender].Caption=Cinsiyet
+TEmployeeListForm.JvDBGrid1[MaritalStatus].Caption=Medeni Durum
+TEmployeeListForm.JvDBGrid1[TCIdNumber].Caption=TCK No
+TEmployeeListForm.JvDBGrid1[PassportNumber].Caption=Pasaport No
+TEmployeeListForm.JvDBGrid1[SgkRegNumber].Caption=SGK Sicil No
+TEmployeeListForm.JvDBGrid1[EmploymentDate].Caption=Ýþe Giriþ Tarihi
+TEmployeeListForm.JvDBGrid1[Retired].Caption=Emekli mi?
+TEmployeeListForm.JvDBGrid1[RetirementDate].CaptionJvDBGrid1.Columns[].Caption=Emeklilik Tarihi
+TEmployeeListForm.JvDBGrid1[SgkGroupId].Caption=SGK Grup
+TEmployeeListForm.JvDBGrid1[WageCurrencyId].Caption=Ücret Dövizi
+TEmployeeListForm.JvDBGrid1[NetWage].Caption=Net Ücret mi?
+TEmployeeListForm.JvDBGrid1[IncomeTaxExemptionGroupId].Caption=GV Muafiyet Grubu
+TEmployeeListForm.JvDBGrid1[WagePeriod].Caption=Ücret Peryodu
+TEmployeeListForm.JvDBGrid1[WageStampDutyOk].Caption=Ücret DV var mý?
+TEmployeeListForm.JvDBGrid1[BonusStampDutyOk].Caption=Ýkr.DV var mý?
+TEmployeeListForm.JvDBGrid1[MinimumWage].Caption=Asgari Ücret mi?
+TEmployeeListForm.JvDBGrid1[BankId].Caption=Banka
+TEmployeeListForm.JvDBGrid1[BankAccountNumber].Caption=Banka Hesap Nosu
+TEmployeeListForm.JvDBGrid1[NickName].Caption=Takma Ad
+TEmployeeListForm.JvDBGrid1[NationalityId].Caption=Uyruðu
+TEmployeeListForm.JvDBGrid1[IdSerialNumber].Caption=Nüfus Seri No
+TEmployeeListForm.JvDBGrid1[IdFatherName].Caption=Baba Adý
+TEmployeeListForm.JvDBGrid1[IdMotherName].Caption=Anne Adý
+TEmployeeListForm.JvDBGrid1[IdBirthPlace].Caption=Doðum Yeri
+TEmployeeListForm.JvDBGrid1[IdBirthDate].Caption=Doðum Tarihi
+TEmployeeListForm.JvDBGrid1[IdReligion].Caption=Dini
+TEmployeeListForm.JvDBGrid1[IdMotherMaidenName].Caption=Anne kýzlýk soyadý
+TEmployeeListForm.JvDBGrid1[IdSequenceNo].Caption=NC Sýra no
+TEmployeeListForm.JvDBGrid1[IdVolumeNo].Caption=NC Cilt no
+TEmployeeListForm.JvDBGrid1[IdFamilyOrderNo].Caption=NC Aile Sýra no
+TEmployeeListForm.JvDBGrid1[IdOrderNo].Caption=NC Sýra no
+TEmployeeListForm.JvDBGrid1[IdIssuePlace].Caption=NC Verildiði yer
+TEmployeeListForm.JvDBGrid1[IdRegistrationNumber].Caption=NC Kayýt no
+TEmployeeListForm.JvDBGrid1[IdRegistrationReason].Caption=NC Verilme Sebebi
+TEmployeeListForm.JvDBGrid1[IdRegistrationDate].Caption=NC Verilme Tarihi
+TEmployeeListForm.JvDBGrid1[PictureFileName].Caption=Resim
+TEmployeeListForm.JvDBGrid1[IdCardImageFilename].Caption=NC Taranmýþ kopya
+TEmployeeListForm.JvDBGrid1[BloodType].Caption=Kan grubu
+TEmployeeListForm.JvDBGrid1[AdrDistrict].Caption=Mahalle
+TEmployeeListForm.JvDBGrid1[AdrTownId].Caption=Ýlçe
+TEmployeeListForm.JvDBGrid1[AdrPostCode].Caption=Posta kodu
+TEmployeeListForm.JvDBGrid1[AdrStreet].Caption=Cadde/Sokak
+TEmployeeListForm.JvDBGrid1[Address].Caption=Adres
+TEmployeeListForm.JvDBGrid1[PhoneMobile].Caption=Cep Telefonu
+TEmployeeListForm.JvDBGrid1[PhoneHome].Caption=Ev Telefonu
+TEmployeeListForm.JvDBGrid1[PhoneOffice].Caption=Ofis Telefonu
+TEmployeeListForm.JvDBGrid1[PhoneMobileCompany].Caption=Firma Cep Tel.
+TEmployeeListForm.JvDBGrid1[PrivateEMail].Caption=Kiþisel EMail
+TEmployeeListForm.JvDBGrid1[CompanyEMail].Caption=Firma EMail
+TEmployeeListForm.JvDBGrid1[UnionMembered].Caption=Sendika
+TEmployeeListForm.JvDBGrid1[ChildrenCount].Caption=Çocuk Sayýsý
+TEmployeeListForm.JvDBGrid1[IsDeleted].Caption=Silindi mi?
+TEmployeeListForm.JvDBGrid1[CreatedOnDate].Caption=Kayýt yaratýldýðý tarih
+TEmployeeListForm.JvDBGrid1[CreatedByUserId].Caption=Kayýt yaratan kullanýcý
+TEmployeeListForm.JvDBGrid1[LastModifiedOnDate].Caption=Son deðiþtirildiði tarih
+TEmployeeListForm.JvDBGrid1[LastModifiedByUserId].Caption=Son deðiþikliði yapan kullanýcý
+
+TEmployeeEditForm.Caption=Personel
+TEmployeeEditForm.labelEmployeeName.Caption=Çalýþan Adý:
+TEmployeeEditForm.labelEmployeeSurname.Caption=Soyadý:
+TEmployeeEditForm.labelMaritalStatus.Caption=Medeni Durumu:
+TEmployeeEditForm.labelEmploymentDate.Caption=Ýþe Baþlama Tarihi:
+TEmployeeEditForm.edRetired.Caption=Emekli mi?
+TEmployeeEditForm.labelRetirementDate.Caption=Emeklilik Tarihi:
+TEmployeeEditForm.labelNickName.Caption=Göbek Adý:
+TEmployeeEditForm.labelGender.Caption=Cinsiyet:
+TEmployeeEditForm.edGender.Items.Text=Erkek=1\nKadýn=2\nDiðer=3
+
+TEmployeeEditForm.labelCompanyId.Caption=Firma:
+TEmployeeEditForm.labelCompanyIdNumber.Caption=Ýþyeri Sicil No:
+TEmployeeEditForm.labelTitleId.Caption=Ünvan:
+TEmployeeEditForm.labelBloodType.Caption=Kan Grubu:
+
+TEmployeeEditForm.labelTCIdNumber.Caption=TCK Numarasý:
+TEmployeeEditForm.labelPassportNumber.Caption=Pasaport Numarasý:
+TEmployeeEditForm.labelSgkRegNumber.Caption=SGK Sicil Nosu:
+TEmployeeEditForm.labelNationalityId.Caption=Milliyeti:
+TEmployeeEditForm.labelIdSerialNumber.Caption=NC Seri no:
+TEmployeeEditForm.labelIdFatherName.Caption=NC Baba Adý:
+TEmployeeEditForm.labelIdMotherName.Caption=NC Ana Adý:
+TEmployeeEditForm.labelIdBirthPlace.Caption=NC Doðum Yeri:
+TEmployeeEditForm.labelIdBirthDate.Caption=NC Doðum Tarihi:
+TEmployeeEditForm.labelIdReligion.Caption=Dini
+TEmployeeEditForm.labelIdMotherMaidenName.Caption=Anne Kýzlýk Soyadý:
+TEmployeeEditForm.labelIdSequenceNo.Caption=NC Sýra No:
+TEmployeeEditForm.labelIdVolumeNo.Caption=NC Cilt No:
+TEmployeeEditForm.labelIdFamilyOrderNo.Caption=NC Aile Sýra No:
+TEmployeeEditForm.labelIdOrderNo.Caption=Sýra No:
+TEmployeeEditForm.labelIdIssuePlace.Caption=NC Verilen Yer:
+TEmployeeEditForm.labelIdRegistrationNumber.Caption=NC Veriliþ Numarasý:
+TEmployeeEditForm.labelIdRegistrationReason.Caption=NC Veriliþ Nedeni:
+TEmployeeEditForm.labelIdRegistrationDate.Caption=NC Veriliþ Tarihi:
+TEmployeeEditForm.labelIdCardImage.Caption=Nüfus Cüzdaný Resmi:
+TEmployeeEditForm.labelSgkGroupId.Caption=SGK Grubu:
+TEmployeeEditForm.labelWageCurrency.Caption=Gelir Döviz kodu:
+TEmployeeEditForm.labelIncomeTaxExemptionGroupId.Caption=GV Muafiyet Grubu:
+TEmployeeEditForm.labelBankAccountNumber.Caption=Banka Hesap Nosu:
+TEmployeeEditForm.edNetWage.Caption=Net Ücret mi?
+TEmployeeEditForm.edMinimumWage.Caption=Asgari Ücret mi?
+TEmployeeEditForm.edWageStampDutyOk.Caption=Ücretten DV kesiliyor mu?
+TEmployeeEditForm.edBonusStampDutyOk.Caption=ÝkramiyedenDV kesiliyor mu?
+
+TEmployeeEditForm.groupAddress.Caption=Adres
+TEmployeeEditForm.labelDistrict.Caption=Mahalle:
+TEmployeeEditForm.labelTown.Caption=Ýlçe:
+TEmployeeEditForm.labelPostCode.Caption=Posta Kodu:
+TEmployeeEditForm.labelStreet.Caption=Cadde:
+TEmployeeEditForm.labelAddress.Caption=Adres:
+TEmployeeEditForm.labelPhoneMobile.Caption=Cep Telefonu:
+TEmployeeEditForm.labelPhoneHome.Caption=Ev Telefonu:
+TEmployeeEditForm.labelPhoneOffice.Caption=Ofis Telefonu:
+TEmployeeEditForm.labelPhoneMobileCompany.Caption=Firma Cep Tel:
+TEmployeeEditForm.labelPrivateEmail.Caption=Kiþisel EPosta:
+TEmployeeEditForm.labelCompanyEmail.Caption=Firma EPosta:
+TEmployeeEditForm.labelChildrenCount.Caption=Çocuk Sayýsý:
+
+
+TEmployeeEditForm.labelFamilyName.Caption=Adý:
+TEmployeeEditForm.labelFamilySurname.Caption=Soyadý:
+TEmployeeEditForm.labelFamilyRelationshipTypeId.Caption=Akrabalýk Türü:
+TEmployeeEditForm.labelFamilyGender.Caption=Cinsiyet:
+TEmployeeEditForm.labelFamilyBirthdate.Caption=Doðum Tarihi:
+TEmployeeEditForm.labelFamilyEducation.Caption=Eðitim Durumu:
+TEmployeeEditForm.labelFamilyJob.Caption=Ýþi:
+TEmployeeEditForm.labelFamilyMobilePhone.Caption=Cep Telefonu:
+TEmployeeEditForm.edFamilyIsStudent.Caption=Öðrenci mi?
+TEmployeeEditForm.edFamilyIncomeStatus.Caption=Geliri var mý?
+TEmployeeEditForm.edFamilyWorking.Caption=Çalýþýyor mu?
+TEmployeeEditForm.edFamilyAlive.Caption=Sað mý?
+TEmployeeEditForm.edFamilyBeLiableToLookAfter.Caption=Bakmakla Yükümlü mü?
+
+
+TEmployeeEditForm.gridFamily[RelationType].Caption=Yakýnlýðý
+TEmployeeEditForm.gridFamily[RelationshipTypeId].Caption=Yakýnlýðý
+TEmployeeEditForm.gridFamily[Name].Caption=Adý
+TEmployeeEditForm.gridFamily[Surname].Caption=Soyadý
+TEmployeeEditForm.gridFamily[IdentityNumber].Caption=TC Kimlik Numarasý
+TEmployeeEditForm.gridFamily[Gender].Caption=Cinsiyet
+
+
+TEmployeeEditForm.edMaritalStatus.Items.Text=Bekar=1\nEvli=2\nBoþanmýþ=3\nDul=4
+TEmployeeEditForm.edIdReligion.Items.Text=Ýslam\nHristiyan\nYahudi
+
+============================================================================================================
+TTitleEditForm.Caption=Ünvanlar
+TTitleEditForm.labelTitleName.Caption=Ünvan adý:
+TTitleEditForm.labelTitleNameEng.Caption=Ünvan adý(Ýng):
+TTitleEditForm.labelParentTitleId.Caption=Baðlý olduðu ünvan:
+TTitleEditForm.labelCompanyId.Caption=Firma
+TTitleEditForm.edIsHeadShip.Caption=Müdürlük mü?
+
+TTownListForm.Caption=Ýlçeler
+TTownListForm.JvDBGrid1.Columns[TownId].Caption=Ýlçe no
+TTownListForm.JvDBGrid1.Columns[TownName].Caption=Adý
+TTownListForm.JvDBGrid1.Columns[CityId].Caption=Ýli
+TTownListForm.JvDBGrid1.Columns[City].Caption=Ýl Adý
+============================================================================================================
+
+TTownEditForm.Caption=Ýlçe
+TTownEditForm.labelTownName.Caption=Ýlçe Adý:
+TTownEditForm.labelCityId.Caption=Baðlý Olduðu Ýl:
+============================================================================================================
+TOthIncomeOutcomeDefEditForm.Caption=Diðer Gelir ve Kesinti Tanýmý Giriþi
+TOthIncomeOutcomeDefEditForm.labelCode.Caption=Taným Kodu:
+TOthIncomeOutcomeDefEditForm.labelDescription.Caption=Açýklamasý:
+TOthIncomeOutcomeDefEditForm.edIncomeOutcome.Caption=Gelir mi Kesinti mi?
+TOthIncomeOutcomeDefEditForm.edComputationType.Caption=Hesaplama Türü
+TOthIncomeOutcomeDefEditForm.edIncomeTaxOk.Caption=Gelir Vergisine Tâbi mi?
+TOthIncomeOutcomeDefEditForm.edSgkCutOk.Caption=Sgk Kesintisine Tâbi mi?
+TOthIncomeOutcomeDefEditForm.edWageStampDutyOk.Caption=Damga Vergisine Tâbi mi?
+TOthIncomeOutcomeDefEditForm.edOtvCutOk.Caption=ÖTV Kesintisine Tâbi mi?
+TOthIncomeOutcomeDefEditForm.labelOtvCutPercentage.Caption=ÖTV Kesinti Yüzdesi:
+TOthIncomeOutcomeDefEditForm.edIsNet.Caption=Net Rakam mý?
+TOthIncomeOutcomeDefEditForm.labelCompanyId.Caption=Firma:
+TOthIncomeOutcomeDefEditForm.labelAmount.Caption=Tutar:
+TOthIncomeOutcomeDefEditForm.labelPercentage.Caption=Yüzdelik:
+TOthIncomeOutcomeDefEditForm.labelCurrencyId.Caption=Para Birimi:
+TOthIncomeOutcomeDefEditForm.labelComputationText.Caption=Hesaplama rutini:
+
+TOthIncomeOutcomeDefEditForm.edIncomeOutcome.Items.Text=Gelir\nKesinti
+TOthIncomeOutcomeDefEditForm.edComputationType.Items.Text=Tutar\nYüzde\nFormül
+
+
+============================================================================================================
+TOthIncomeOutcomeDef.IncomeOutcome.Items.Text=Gelir\nKesinti
+TOthIncomeOutcomeDef.ComputationType.Items.Text=Tutar\nYüzde\nFormül
+============================================================================================================
+TCurrencyListForm.Caption=Döviz Kodlarý
+TCurrencyListForm.JvDBGrid1[CurrencyId].Caption=Sýra No
+TCurrencyListForm.JvDBGrid1[CurrencyCode].Caption=Kod
+TCurrencyListForm.JvDBGrid1[CurrencyName].Caption=Ad
+TCurrencyListForm.JvDBGrid1[SortOrder].Caption=Sýralama
+TCurrencyListForm.JvDBGrid1[Multiplier].Caption=Çarpan
+TCurrencyListForm.JvDBGrid1[PrecisionNumber].Caption=Ondalýk sayýsý
+TCurrencyListForm.JvDBGrid1[RefId].Caption=Referans no
+TCurrencyListForm.JvDBGrid1[IsDeleted].Caption=Silindi mi?
+============================================================================================================
+
+TCurrencyEditForm.Caption=Döviz Kodu Giriþi
+TCurrencyEditForm.labelCurrencyCode.Caption=Döviz Kodu:
+TCurrencyEditForm.labelCurrencyName.Caption=Döviz Adý:
+TCurrencyEditForm.labelSortOrder.Caption=Sýralama:
+TCurrencyEditForm.labelMultiplier.Caption=Çarpan:
+TCurrencyEditForm.labelPrecisionNumber.Caption=Ondalýk sayýsý:
+TCurrencyEditForm.labelRefId.Caption=Referans numarasý:
+
+TLoginForm.Caption=Giriþ
+TLoginForm.labelUsername.Caption=Kullanýcý Adý
+TLoginForm.labelPassword.Caption=Parola
+TLoginForm.edUsername.TextHint=Kullanýcý adý girin
+TLoginForm.edPassword.TextHint=Parola girin
+TLoginForm.btnOk.Caption=Tamam
+TLoginForm.btnCancel.Caption=Vazgeç
+============================================================================================================
+TUserListForm.JvDBGrid1.Columns[UserId].Caption=Kullanýcý no
+TUserListForm.JvDBGrid1.Columns[UserName].Caption=Kullanýcý adý
+TUserListForm.JvDBGrid1.Columns[Password].Caption=Parola
+TUserListForm.JvDBGrid1.Columns[UserGuid].Caption=Kullanýcý Guid
+TUserListForm.JvDBGrid1.Columns[DocPassword].Caption=Döküman Parolasý
+TUserListForm.JvDBGrid1.Columns[CompanyId].Caption=Firma Id
+TUserListForm.JvDBGrid1.Columns[CompanyId].Caption=Firma Adý
+
+============================================================================================================
+TUserEditForm.Caption=Kullanýcý
+TUserEditForm.labelUsername.Caption=Kullanýcý Adý:
+TUserEditForm.labelPassword.Caption=Parola:
+TUserEditForm.labelUserGuid.Caption=Kullanýcý Guid:
+TUserEditForm.labelDocPassword.Caption=Döküman Parolasý:
+TUserEditForm.labelCompanyId.Caption=Firma:
+TUserEditForm.labelLocationId.Caption=Lokasyon:
+TUserEditForm.labelMobilePhone.Caption=Cep Telefonu:
+TUserEditForm.labelEmail.Caption=E-Posta adresi:
+TUserEditForm.tabGroups.Caption=Gruplar
+TUserEditForm.tabRoles.Caption=Roller
+TUserEditForm.tabPermissions.Caption=Ýzinler
+============================================================================================================
+TGroupEditForm.Caption=Grup
+TGroupEditForm.labelGroupName.Caption=Grup Adý:
+TGroupEditForm.labelCompanyId.Caption=Firma:
+TGroupEditForm.labelParentId.Caption=Ait olduðu Grup:
+TGroupEditForm.tabUsers.Caption=Kullanýcýlar
+TGroupEditForm.tabRoles.Caption=Roller
+TGroupEditForm.tabPermissions.Caption=Ýzinler
+============================================================================================================
+TPermissionListForm.Caption=Ýzinler
+TPermissionListForm.JvDBGrid1.Columns[PermissionId].Caption=Ýzin no
+TPermissionListForm.JvDBGrid1.Columns[PermissionName].Caption=Açýklama
+TPermissionListForm.JvDBGrid1.Columns[ParentId].Caption=Üst izin
+TPermissionListForm.JvDBGrid1.Columns[ModulClassName].Caption=Modül sýnýf adý
+============================================================================================================
+TPermissionEditForm.Caption=Ýzin Giriþi
+TPermissionEditForm.labelPermissionId.Caption=Ýzin kodu:
+TPermissionEditForm.labelPermissionName.Caption=Ýzin Açýklamasý:
+TPermissionEditForm.labelParentId.Caption=Baðlý olduðu Ýzin Grubu:
+TPermissionEditForm.tabUsers.Caption.Caption=Kullanýcýlar
+TPermissionEditForm.tabGroups.Caption=Gruplar
+TPermissionEditForm.tabRoles.Caption=Roller
+
+============================================================================================================
+TRoleListForm.Caption=Roller
+TRoleListForm.JvDBGrid1.Columns[RoleId].Caption=Ýzin no
+TRoleListForm.JvDBGrid1.Columns[RoleName].Caption=Açýklama
+TRoleListForm.JvDBGrid1.Columns[CompanyCode].Caption=Firma Kodu
+TRoleListForm.JvDBGrid1.Columns[CompanyName].Caption=Firma Adý
+============================================================================================================
+TRoleEditForm.Caption=Rol Giriþi
+TRoleEditForm.labelRoleId.Caption=Rol kodu:
+TRoleEditForm.labelRoleName.Caption=Rol Açýklamasý:
+TRoleEditForm.labelCompanyId.Caption=Firmasý:
+TRoleEditForm.tabUsers.Caption.Caption=Kullanýcýlar
+TRoleEditForm.tabGroups.Caption=Gruplar
+TRoleEditForm.tabPermissions.Caption=Ýzinler
+============================================================================================================
+MessagesForAppropriateLanguage.SNotAuthorized=Bu iþlemi yapmaya yetkili deðilsiniz!
+MessagesForAppropriateLanguage.SConfirmToDelete=Bu Kayýt Silinecek! Emin misiniz?
+MessagesForAppropriateLanguage.SThereIsNoSelectedCompany=Ýþlem yapýlacak Firma Seçilmedi
+
+
+MessagesForAppropriateLanguage.CancelButtonCaption=Vazgeç
+MessagesForAppropriateLanguage.CloseButtonCaption=Kapat
+MessagesForAppropriateLanguage.OkButtonCaption=Tamam
+
+MessagesForAppropriateLanguage.SUsernameAndOrPasswordExpected=Kullanýcý adý veya parola girilmedi!
+
+MessagesForAppropriateLanguage.SThisOptionCantSelected=Bu seçim yapýlamaz.
